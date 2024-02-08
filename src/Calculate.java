@@ -79,7 +79,7 @@ public class Calculate {
             } else if (values[1].equals("/")) {
                 calculate = firstNumber / secondNumber;
             }
-            result = RomanToArabic.convert(calculate);
+            result = ArabicToRoman.convert(calculate);
         } else {
             try {
                 if (firstNumber == -1) {
